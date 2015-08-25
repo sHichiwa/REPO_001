@@ -2,7 +2,7 @@
 /*  Prime factorization  */
 /*************************/
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h> 3
 
 void soinsuu( int targetNumber )
 {
