@@ -3,29 +3,13 @@
 /*           sosu01.c   */
 /************************/
 #include <stdio.h>
-#include <stdlib.h>
 
-int main( void )
-/*----------------*/
-/*  Main Program  */
-/*----------------*/
+void sosu( int start, int end )
 {
-    int   i,iS,iE;
-    int   j,kosu;
-    char  c[128];
+    int   i,j;
+    int   kosu;
 
-    printf("\n+-----------------------+");
-    printf("\n+  Search Prime Number  +");
-    printf("\n+------------------------+");
-
-    printf("\nStart Number: ");
-    fgets(c, 100, stdin);
-    iS=atoi(c);                    // Input Start Number
-    printf("\nEnd Number: ");
-    fgets(c, 100, stdin);
-    iE=atoi(c);                    // Input End Number
-
-    for( i=iS,kosu=0; i<=iE; i++ )
+    for( i=start, kosu=0; i<=end; i++ )
      {
        for( j=2; j<i; j++ )
          { if ( i%j==0 ) break; }           // Divisible
@@ -39,6 +23,4 @@ int main( void )
      }
 
     printf("\n\n Prime Number: %d are found\n",kosu);
-
-    return 0;
 }

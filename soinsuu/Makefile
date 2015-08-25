@@ -2,7 +2,7 @@
 
 #build resource
 PROGRAM = exec
-OBJS = soinsuu01.o
+OBJS = main.o soinsuu01.o
 
 #Build parameter
 CC = gcc 
@@ -15,4 +15,4 @@ $(PROGRAM): $(OBJS)
 #Clean command
 .PHONY: clean
 clean:
-	rm -f $(OBJS) *~ *.bak
+	rm -f $(OBJS) *~ *.bak *.BAK
