@@ -1,0 +1,2 @@
+TEST001
+This file is to check new file added to the Git
