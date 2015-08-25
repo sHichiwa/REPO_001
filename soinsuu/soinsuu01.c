@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 void soinsuu( int targetNumber )
 {
 	int   n;		// Integer
