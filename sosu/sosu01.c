@@ -4,8 +4,6 @@
 /************************/
 #include <stdio.h>
 
- 4a-s
-
 void sosu( int start, int end )
 {
     int   i,j;

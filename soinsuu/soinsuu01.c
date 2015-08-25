@@ -2,8 +2,10 @@
 /*  Prime factorization  */
 /*************************/
 #include <stdio.h>
-#include <stdlib.h> 3A
+#include <stdlib.h>
 
+ 4a-s
+ 
 void soinsuu( int targetNumber )
 {
 	int   n;		// Integer
