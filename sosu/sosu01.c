@@ -2,7 +2,9 @@
 /*  Search Prime Number */
 /*           sosu01.c   */
 /************************/
-#include <stdio.h> 4
+#include <stdio.h>
+
+ 4a-s
 
 void sosu( int start, int end )
 {
